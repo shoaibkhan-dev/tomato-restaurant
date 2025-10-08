@@ -34,18 +34,4 @@ const LoginPopup = ({setShowLogin}) => {
   )
 }
 
-export default LoginPopup
-
-
-const LoginPopup = ({setShowLogin})=>{
-   
-  const [currState, setCurrState] = useState("login")
-
-  return(
-    <div className="login-popup">
-      <form className='login-popup-form'>
-         <div className="login-"></div>
-      </form>
-    </div>
-  )
-})
+export default LoginPopup;
