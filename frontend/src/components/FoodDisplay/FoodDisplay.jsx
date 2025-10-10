@@ -22,3 +22,10 @@ const FoodDisplay = ({category}) => {
 }
 
 export default FoodDisplay;
+
+
+const FoodDisplay = ({category}) => {
+      
+    const { food_list } = useContext(StoreContext)
+
+  return ()
