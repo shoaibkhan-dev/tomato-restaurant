@@ -22,14 +22,3 @@ const ExploreMenu = ({category,setCategory}) => {
 }
 
 export default ExploreMenu;
-const ExploreMenu = ({category,setCategory}) =>{
-  return(
-    <div className="explore-menu">
-      <p className='explore-menu'>
-        {menu_list.map((item,index)=>{
-          
-        })}
-      </p>
-    </div>
-  )
-}
